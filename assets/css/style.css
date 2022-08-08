@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headline {
+    font-family: Cambria, Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    padding: 3vh;
+}
+
+.fontArial {
+    font-family: Arial;
+}
+
+.backgroundGreen {
+    background-color: lightseagreen;
+}
+
+.backgroundBlue {
+    background-color: dodgerblue;
+}
+
+.colorWhite {
+    color: white;
+}
+
+section {
+    height: 100vh;
+}
+
+section:nth-of-type(1) {
+    background-color: rosybrown;
+}
+
+section:nth-of-type(2) {
+    background-color: peru;
+}
+
+/* #section2 {
+    background-color: blue;
+} */
+/* Klassen und ID's stehen im Ranking über Selektoren. */
